@@ -1,0 +1,52 @@
+.hidden{
+	visibility: hidden
+}
+.wh{
+	width: 300px;
+	height: 300px;
+}
+.space{
+	padding: 20px 20px 10px 20px;
+	margin: 20px 20px 10px 20px;
+}
+.inline{
+	display: inline;
+}
+.whl{
+	width: 400px;
+	height: 300px;
+}
+.whla{
+	width: 100px;
+	height: 50px;
+}
+.black{
+	color: black;
+	font-family: Garamond;
+}
+#searchbar{
+     margin-left: 15%;
+     padding:15px;
+     border-radius: 10px;
+   }
+ 
+   input[type=text] {
+      width: 30%;
+      -webkit-transition: width 0.15s ease-in-out;
+      transition: width 0.15s ease-in-out;
+   }
+ 
+   /* When the input field gets focus,
+        change its width to 100% */
+   input[type=text]:focus {
+     width: 70%;
+   }
+ 
+  #list{
+    font-size:  1.5em;
+    margin-left: 90px;
+   }
+ 
+.animals{
+   display: list-item;    
+  } 
